@@ -27,7 +27,7 @@ jobs:
 
     - name: Build and Push Container
       run: |
-        docker build -t us-central1-docker.pkg.dev/pupalab-portfolio/puppa-repo/puppa-app:v1 .
+        docker build -t us-central1-docker.pkg.dev/pupalab-portfolio/puppa-repo/puppa-app:v1 ./PuppaLab
         docker push us-central1-docker.pkg.dev/pupalab-portfolio/puppa-repo/puppa-app:v1
 
     - name: Deploy to Cloud Run
