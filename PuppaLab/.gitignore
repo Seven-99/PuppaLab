@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+echo "credentials.json"
 
 node_modules
 dist
