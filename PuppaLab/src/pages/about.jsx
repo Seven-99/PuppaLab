@@ -97,7 +97,7 @@ export default function About() {
           viewport={{ once: true }}
           className="mt-20 py-20 border-t border-white/5 text-center"
         >
-          <h3 className="text-2xl mb-8 opacity-60">¿Listo para empezar algo nuevo?</h3>
+          <h3 className="text-2xl mb-8 opacity-60"> ¿Qué servicio estás buscando?</h3>
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
