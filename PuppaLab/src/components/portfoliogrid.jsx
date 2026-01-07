@@ -6,10 +6,10 @@ import Marketing1 from '../assets/marketing1.jpg'
 
 export default function PortfolioGrid() {
   const projects = [
-    { title: "Diseño gráfico & Branding", size: "md:col-span-2", img: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80&w=800" },
-    { title: "Estrategia Marketing", size: "md:col-span-1", img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80&w=400" },
-    { title: "Diseño Editorial", size: "md:col-span-1", img: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=400" },
-    { title: "Web Design UI/UX", size: "md:col-span-2", img: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&q=80&w=800" },
+    { title: "Diseño gráfico & Branding", size: "md:col-span-2", img: Mockup1 },
+    { title: "Estrategia Marketing", size: "md:col-span-1", img: Office1 },
+    { title: "Diseño Editorial", size: "md:col-span-1", img: Working1 },
+    { title: "Web Design UI/UX", size: "md:col-span-2", img: Marketing1 },
   ];
 
   return (
