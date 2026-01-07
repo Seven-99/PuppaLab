@@ -6,10 +6,10 @@ import Marketing1 from '../assets/marketing1.jpg'
 
 export default function PortfolioGrid() {
   const projects = [
-    { title: "Diseño gráfico & Branding", size: "md:col-span-2", img: Mockup1 },
-    { title: "Estrategia Marketing", size: "md:col-span-1", img: Office1 },
-    { title: "Diseño Editorial", size: "md:col-span-1", img: Working1 },
-    { title: "Web Design UI/UX", size: "md:col-span-2", img: Marketing1 },
+    { title: "Diseño gráfico & Branding", size: "md:col-span-2", img: Office1 },
+    { title: "Estrategia Marketing", size: "md:col-span-1", img: Marketing1 },
+    { title: "Diseño Editorial", size: "md:col-span-1", img: Mockup1 },
+    { title: "Web Design UI/UX", size: "md:col-span-2", img: Working1 },
   ];
 
   return (
