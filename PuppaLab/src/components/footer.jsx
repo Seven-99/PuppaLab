@@ -7,7 +7,7 @@ export default function Footer(){
 
                 {/* Name and Logo */}
                 <div className="flex items-center gap-3">
-                    <span className="text-3xl font-title tracking-widest">PUPPA LAB</span>
+                    <span className="text-3xl font-title tracking-widest">PUPA LAB</span>
                     <div className="w-[2px] h-8 bg-white"></div>
                     <span className="font-text text-sm tracking-wider">CREATIVE STUDIO</span>
                 </div>
@@ -16,7 +16,7 @@ export default function Footer(){
                 {/* Navegation Links */}
                 <ul className="flex gap-8 opacity-80 hover:[&>*]:opacity-100 transition-all">
                     <li>
-                        <a href="https://linkedin.com" target="_blank">
+                        <a href="https://www.linkedin.com/in/sharon-victoria-guti%C3%A9rrez-b6657426b/" target="_blank">
                             <img 
                                 src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" 
                                 className="w-6 h-6" 
@@ -26,7 +26,7 @@ export default function Footer(){
                     </li>
 
                     <li>
-                        <a href="https://instagram.com" target="_blank">
+                        <a href="https://instagram.com/pupalab.ar" target="_blank">
                             <img 
                                 src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" 
                                 className="w-6 h-6" 
@@ -36,7 +36,7 @@ export default function Footer(){
                     </li>
 
                     <li>
-                        <a href="https://wa.me/##########" target="_blank">
+                        <a href="https://wa.me/5493584326935?text=Hola%20necesito%20un%20presupuesto..." target="_blank">
                             <img 
                                 src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" 
                                 className="w-6 h-6" 
@@ -51,7 +51,7 @@ export default function Footer(){
 
                 {/* Copyright */}
                 <p className="text-xs text-[#1B1B1B] tracking-wide text-center">
-                {new Date().getFullYear()} PuppaLab - Creation, Design & Digital Marketing.</p>
+                {new Date().getFullYear()} PupaLab - Creation, Design & Digital Marketing.</p>
             </div>
         </footer>
     )

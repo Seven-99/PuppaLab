@@ -54,7 +54,7 @@ export default function Contact() {
             Hablemos de tu <span className="text-[#008577]">proyecto</span>
           </h1>
           <p className="opacity-60 text-lg max-w-xl mx-auto">
-            ¿Tienes una idea en mente? Cuéntanos qué necesitas.
+            ¿Tenés una idea en mente? Contanos qué necesitás y vemos cómo ayudarte.
           </p>
         </motion.div>
 
@@ -62,11 +62,23 @@ export default function Contact() {
           <motion.div variants={itemVariants} className="space-y-8">
             <div>
               <h3 className="text-[#008577] font-semibold uppercase tracking-widest text-sm mb-2">Email</h3>
-              <p className="text-xl hover:text-[#008577] transition-colors cursor-pointer">hola@pupalab.com</p>
+              <a className="text-xl hover:text-[#008577] transition-colors cursor-pointer" href="mailto:pupalab.ar@gmail.com">Envianos un mail</a>
             </div>
             <div>
               <h3 className="text-[#008577] font-semibold uppercase tracking-widest text-sm mb-2">Ubicación</h3>
               <p className="text-xl">Remoto — Disponible para todo el mundo.</p>
+            </div>
+            <div>
+              <h3 className="text-[#008577] font-semibold uppercase tracking-widest text-sm mb-2">WhatsApp</h3>
+              <a href="https://wa.me/5493584326935?text=Hola%20necesito%20un%20presupuesto..." className="text-xl hover:text-[#008577]">Chatea con nosotros por WhatsApp</a>
+            </div>
+            <div>
+              <h3 className="text-[#008577] font-semibold uppercase tracking-widest text-sm mb-2">Instagram</h3>
+              <a className="text-xl hover:text-[#008577]" href="https://instagram.com/pupalab.ar">Contactanos a través de Instagram</a>
+            </div>
+            <div>
+              <h3 className="text-[#008577] font-semibold uppercase tracking-widest text-sm mb-2">LinkedIn</h3>
+              <a className="text-xl hover:text-[#008577]" href="https://www.linkedin.com/in/sharon-victoria-guti%C3%A9rrez-b6657426b/">Mi perfil de LinkedIn</a>
             </div>
           </motion.div>
 

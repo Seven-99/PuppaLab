@@ -27,7 +27,7 @@ export default function About() {
           <h1 className="text-5xl md:text-8xl font-bold tracking-tighter mb-6">
             Sobre <span className="text-[#008577]">nosotros</span>
           </h1>
-          <p className="text-xl md:text-2xl opacity-60 font-light text-center max-w-2xl">
+          <p className="text-xl md:text-2xl opacity-60 font-light text-center max-w-2xl mx-auto">
             Un estudio creativo enfocado en estrategia, diseño y comunicación.
           </p>
         </motion.div>
@@ -43,13 +43,13 @@ export default function About() {
           >
             <p>
               <span className="text-white font-semibold">PupaLab</span> es un estudio creativo 
-              especializado en <span className="text-[#008577]">Marketing Digital</span> y 
-              <span className="text-[#008577]"> Diseño Gráfico</span>, con una visión moderna 
+              especializado en <span className="text-[#008577]">estrategia digital</span>, <span className="text-[#008577]">branding</span> y 
+              <span className="text-[#008577]"> comunicación visual</span>. Trabajamos con una mirada moderna y estratégica,
               orientada a construir marcas simples, directas y con identidad.
             </p>
             <p>
-              Nuestro enfoque combina estrategia, diseño visual y narrativa para que 
-              cada proyecto comunique con claridad.
+              Nuestro enfoque combina pensamiento estratégico,
+              diseño visual y narrativa para que cada proyecto comunique con claridad y coherencia.
             </p>
           </motion.div>
           
@@ -62,14 +62,15 @@ export default function About() {
             className="space-y-8 text-lg opacity-80 leading-relaxed"
           >
             <p>
-              Actualmente estamos expandiendo nuestra propuesta hacia el mundo 
-              <span className="text-white font-semibold underline decoration-[#008577] decoration-2 underline-offset-4"> editorial</span>. 
-              Nuestro objetivo es llevar la sensibilidad estética de PupaLab a nuevos formatos.
+              Actualmente expandimos nuestra propuesta hacia nuevos <span className="text-white font-semibold underline decoration-[#008577] decoration-2 underline-offset-4">formatos digitales y editoriales</span>,
+              llevando la sensibilidad estética de Pupa Lab a cada punto de contacto de la marca.
             </p>
             <p>
               Creemos en el poder de la <span className="italic">simplicidad bien aplicada</span>. 
               Un mensaje claro transforma la percepción de una marca.
             </p>
+            <p>También desarrollamos <span className="text-[#008577]">sitios web</span>, <span className="text-[#008577]">experiencias digitales</span> y <span className="text-[#008577]">piezas editoriales</span>,
+              adaptadas a las necesidades de cada proyecto.</p>
           </motion.div>
         </div>
 

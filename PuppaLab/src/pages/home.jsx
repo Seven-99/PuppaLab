@@ -19,16 +19,16 @@ const itemVariants = {
 
 export default function Home() {
   const services = [
-    { title: "Branding & Diseño", desc: "Identidades visuales que capturan la esencia de tu marca.", icon: "🎨" },
-    { title: "Marketing Digital", desc: "Estrategias de crecimiento personalizadas.", icon: "📈" },
-    { title: "Diseño Editorial", desc: "Maquetación y diseño de portadas modernas.", icon: "📖" }
+    { title: "Diseño gráfico & Branding", desc: "Creamos identidades visuales claras, memorables y alineadas a la esencia de tu marca.", icon: "🎨" },
+    { title: "Estrategia Digital", desc: "Definimos objetivos, mensajes y canales para que tu marca crezca con coherencia, foco y dirección.", icon: "📈" },
+    { title: "Redes Sociales & Community ", desc: "Gestionamos tu presencia digital con contenido estratégico, consistencia y criterio de marca.", icon: "📖" }
   ];
 
   const steps = [
-    { num: "01", title: "Inmersión", text: "Analizamos tu mercado y definimos los objetivos clave." },
-    { num: "02", title: "Estrategia", text: "Diseñamos un plan de acción creativo y técnico a medida." },
-    { num: "03", title: "Ejecución", text: "Transformamos ideas en piezas de alto impacto visual." },
-    { num: "04", title: "Impacto", text: "Medimos resultados y optimizamos para el éxito." }
+    { num: "01", title: "Inmersión", text: "Analizamos tu marca, mercado y objetivos para entender el contexto completo." },
+    { num: "02", title: "Estrategia", text: "Diseñamos un plan de acción creativo y técnico a medida de cada proyecto." },
+    { num: "03", title: "Ejecución", text: "Transformamos ideas en piezas visuales y digitales de alto impacto." },
+    { num: "04", title: "Impacto", text: "Medimos resultados y optimizamos para lograr crecimiento real." }
   ];
 
   return (
@@ -57,7 +57,7 @@ export default function Home() {
 
           <div className="flex gap-4 justify-center mt-10">
             <Link to="/about" className="px-6 py-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl hover:bg-white/20 transition-all font-medium">
-              Sobre mí
+              Sobre Nosotros
             </Link>
             <Link to="/contact" className="px-6 py-3 bg-white text-black rounded-xl font-semibold hover:bg-gray-300 transition-all">
               Contactarme

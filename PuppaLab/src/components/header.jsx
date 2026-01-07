@@ -1,4 +1,5 @@
 import React from "react";
+import Pupalogo from "../assets/logo.png"
 
 export default function Header(){
     return(
@@ -12,15 +13,11 @@ export default function Header(){
 
             <nav className="max-w-8xl mx-auto flex py-6 px-6 flex items-center justify-between z-10">
 
-                <div className="flex items-center gap-4">
-                    <h1 className="text-white font-title text-4xl">PUPA LAB</h1>
-
-                    <div className="w-[2px] h-10 bg-white"></div>
-
-                    <div className="text-white flex items-center gap-2">
-                        <span className="font-title text-3xl">B</span>
-                        <span className="font-text tracking-wide">CREATIVE STUDIO</span>
-                    </div>
+                <div className="flex items-center gap-4 relative">
+                    <img src={Pupalogo}
+                    alt="Pupa Lab Logo"
+                    className="h-12 w-auto object-contain transform scale-[2.2] origin-left" />
+                    <div className="h-12 w-40"></div>
                 </div>
 
                 <ul className="hidden md:flex gap-8 text-white font-text text-lg">
