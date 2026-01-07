@@ -19,9 +19,9 @@ const itemVariants = {
 
 export default function Home() {
   const services = [
-    { title: "Diseño gráfico & Branding", desc: "Creamos identidades visuales claras, memorables y alineadas a la esencia de tu marca.", icon: "🎨" },
-    { title: "Estrategia Digital", desc: "Definimos objetivos, mensajes y canales para que tu marca crezca con coherencia, foco y dirección.", icon: "📈" },
-    { title: "Redes Sociales & Community ", desc: "Gestionamos tu presencia digital con contenido estratégico, consistencia y criterio de marca.", icon: "📖" }
+    { title: "Diseño gráfico & Branding", desc: "Identidades visuales que capturan la esencia de tu marca.", icon: "🎨" },
+    { title: "Marketing Digital", desc: "Estrategias de crecimiento personalizadas.", icon: "📈" },
+    { title: "Diseño Editorial", desc: "Maquetación y diseño de portadas modernas.", icon: "📖" }
   ];
 
   const steps = [
@@ -48,16 +48,17 @@ export default function Home() {
           </h1>
 
           <h2 className="text-lg md:text-xl opacity-70 mt-4 tracking-wide text-[#008577]">
-            Diseño, Desarrollo & Visión Digital
+            Diseño, estrategia y comunicación para marcas que quieren crecer con identidad.
           </h2>
 
           <p className="mt-6 text-sm md:text-base opacity-60 leading-relaxed">
-            Transformamos ideas en experiencias digitales simples, elegantes y funcionales.
+            Transformamos ideas en experiencias digitales claras, funcionales y estéticamente sólidas.
+            Creamos marcas que comunican, conectan y venden.
           </p>
 
           <div className="flex gap-4 justify-center mt-10">
             <Link to="/about" className="px-6 py-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl hover:bg-white/20 transition-all font-medium">
-              Sobre Nosotros
+              Sobre nosotros
             </Link>
             <Link to="/contact" className="px-6 py-3 bg-white text-black rounded-xl font-semibold hover:bg-gray-300 transition-all">
               Contactarme
